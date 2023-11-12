@@ -41,9 +41,14 @@ Description of another project.
 
 ## Languages
 - English (Fluent)
-[=95%]{: .thin}
+<div style="background-color: #ddd; border-radius: 10px; padding: 3px;">
+  <div style="width: 95%; background-color: #4CAF50; border-radius: 10px; text-align: center; color: white; padding: 5px 0;" />
+</div>
+
 - Russian (Can watch and read the news)
-[=35%]{: .thin}
+<div style="background-color: #ddd; border-radius: 10px; padding: 3px;">
+  <div style="width: 35%; background-color: #F7996E; border-radius: 10px; text-align: center; color: white; padding: 5px 0;"/>
+</div>
 
 ## Interests
 - Interest 1
