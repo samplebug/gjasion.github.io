@@ -9,9 +9,7 @@
 Briefly describe your professional background, skills, and what you are looking for in a new role.
 
 ## Skills
-- Programming Languages: Python, JavaScript, Java
-- Tools & Technologies: Git, Docker, AWS
-- Others: Data Analysis, Project Management
+C#, TSQL, PowerShell, PowerAutomate, PowerApps, Git, WPF XAML
 
 ## Professional Experience
 ### Job Title, Company Name
@@ -42,7 +40,9 @@ Description of another project.
 
 ## Languages
 - English (Fluent)
-- Spanish (Intermediate)
+[=95%]{: .thin}
+- Russian (Can watch and read the news)
+[=35%]{: .thin}
 
 ## Interests
 - Interest 1
