@@ -1,5 +1,6 @@
 <button id="theme-switcher">Switch Theme</button>
-<link id="theme-link" rel="stylesheet" href="/theme-light.css">
+
+<link rel="stylesheet" href="{{ '/assets/css/light-theme.css' | relative_url }}">
 # Greghorz Brezchezyckevisch
 
 ## Contact Information
@@ -51,15 +52,20 @@ Description of another project.
 ## Interests
 - Interest 1
 - Interest 2
-
+ 
 <script>
-    document.getElementById('theme-switcher').addEventListener('click', function() {
-        var currentTheme = document.getElementById('theme-link').getAttribute('href');
-        if (currentTheme.includes('theme-light')) {
-            document.getElementById('theme-link').setAttribute('href', '/theme-dark.css');
-        } else {
-            document.getElementById('theme-link').setAttribute('href', '/theme-light.css');
-        }
+    const themeSwitcher = document.getElementById('theme-switcher');
+    const currentThemeLink = document.querySelector('link[href*="theme"]');
+    const savedTheme = localStorage.getItem('theme');
+
+    if (savedTheme) {
+        currentThemeLink.setAttribute('href', savedTheme);
+    }
+
+    themeSwitcher.addEventListener('click', function() {
+        var isLightTheme = currentThemeLink.getAttribute('href').includes('light-theme');
+        var newTheme = isLightTheme ? '{{ "/assets/css/dark-theme.css" | relative_url }}' : '{{ "/assets/css/light-theme.css" | relative_url }}';
+        currentThemeLink.setAttribute('href', newTheme);
+        localStorage.setItem('theme', newTheme);
     });
 </script>
-
