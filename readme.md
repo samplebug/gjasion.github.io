@@ -1,6 +1,6 @@
-# Your Name
+# Greghorz Brezchezyckevisch
 ## Contact Information
-- **Email:** your.email@example.com
+- **Email:** temporaryDown@example.com
 - **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/yourprofile)
 - **GitHub:** [github.com/yourusername](https://github.com/yourusername)
 - **Website:** [yourwebsite.com](http://yourwebsite.com)
