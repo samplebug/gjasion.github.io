@@ -8,4 +8,4 @@ url: "http://samplebug.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-theme: moonwalk
+theme: minima
