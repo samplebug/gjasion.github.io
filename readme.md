@@ -1,4 +1,5 @@
-##  
+<button id="theme-switcher">Switch Theme</button>
+<link id="theme-link" rel="stylesheet" href="/theme-light.css">
 # Greghorz Brezchezyckevisch
 
 ## Contact Information
@@ -50,3 +51,15 @@ Description of another project.
 ## Interests
 - Interest 1
 - Interest 2
+
+<script>
+    document.getElementById('theme-switcher').addEventListener('click', function() {
+        var currentTheme = document.getElementById('theme-link').getAttribute('href');
+        if (currentTheme.includes('theme-light')) {
+            document.getElementById('theme-link').setAttribute('href', '/theme-dark.css');
+        } else {
+            document.getElementById('theme-link').setAttribute('href', '/theme-light.css');
+        }
+    });
+</script>
+
