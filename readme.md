@@ -1,4 +1,4 @@
-<button id="theme-switcher">Switch Theme</button>
+<button id="theme-switcher" border="none" color="transparent">Switch Theme</button>
 
 <link rel="stylesheet" href="{{ '/assets/css/light-theme.css' | relative_url }}">
 # Greghorz Brezchezyckevisch
@@ -13,7 +13,20 @@
 Briefly describe your professional background, skills, and what you are looking for in a new role.
 
 ## Skills
-C#, TSQL, PowerShell, PowerAutomate, PowerApps, Git, WPF XAML
+C#
+<div style="width: 50%; background-color: #F7996E; border-radius: 3px; padding: 5px 0;"></div>
+TSQL
+<div style="width: 67%; background-color: #4CAF50; border-radius: 3px; padding: 5px 0;"></div>
+PowerShell
+<div style="width: 90%; background-color: #4CAF50; border-radius: 3px; padding: 5px 0;"></div>
+PowerAutomate
+<div style="width: 45%; background-color: #F7996E; border-radius: 3px; padding: 5px 0;"></div>
+PowerApps
+<div style="width: 55%; background-color: #F7996E; border-radius: 3px; padding: 5px 0;"></div>
+Git
+<div style="width: 60%; background-color: #F7996E; border-radius: 3px; padding: 5px 0;"></div>
+WPF XAML
+<div style="width: 60%; background-color: #F7996E; border-radius: 3px; padding: 5px 0;"></div>
 
 ## Professional Experience
 ### Job Title, Company Name
