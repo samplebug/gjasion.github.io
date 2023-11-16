@@ -13,20 +13,80 @@
 Briefly describe your professional background, skills, and what you are looking for in a new role.
 
 ## Skills
-C#
-<div style="width: 50%; background-color: #F7996E; border-radius: 3px; padding: 5px 0;"></div>
-TSQL
-<div style="width: 67%; background-color: #4CAF50; border-radius: 3px; padding: 5px 0;"></div>
-PowerShell
-<div style="width: 90%; background-color: #4CAF50; border-radius: 3px; padding: 5px 0;"></div>
-PowerAutomate
-<div style="width: 45%; background-color: #F7996E; border-radius: 3px; padding: 5px 0;"></div>
-PowerApps
-<div style="width: 55%; background-color: #F7996E; border-radius: 3px; padding: 5px 0;"></div>
-Git
-<div style="width: 60%; background-color: #F7996E; border-radius: 3px; padding: 5px 0;"></div>
-WPF XAML
-<div style="width: 60%; background-color: #F7996E; border-radius: 3px; padding: 5px 0;"></div>
+<div style="display: grid; column-gap: 7px; grid-template-columns: 170px repeat(7, 10px);">
+    <div style=" height: 25px; margin-left: auto; margin-right: 10px">PowerShell</div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+            
+    <div style=" height: 25px; margin-left: auto; margin-right: 10px">TSQL</div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; ; margin: 4px 0"></div>
+       
+	   <div style=" height: 25px; margin-left: auto; margin-right: 10px">Git</div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px;  margin: 4px 0"></div>
+    <div style=" height: 10px; ; margin: 4px 0"></div>
+	
+	   <div style=" height: 25px; margin-left: auto; margin-right: 10px">C#</div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+         
+    <div style=" height: 25px; margin-left: auto; margin-right: 10px">WPF XAML</div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+     <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+	
+	   <div style=" height: 25px; margin-left: auto; margin-right: 10px">Microsoft Power Apps</div>
+	   <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+        
+    <div style=" height: 25px; margin-left: auto; margin-right: 10px">Microsoft Power Automate</div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+    
+    <div style=" height: 25px; margin-left: auto; margin-right: 10px">VBA</div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+    <div style=" height: 10px; margin: 4px 0"></div>
+</div>
+
 
 ## Professional Experience
 ### Job Title, Company Name
