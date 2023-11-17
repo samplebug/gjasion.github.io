@@ -13,78 +13,103 @@
 Briefly describe your professional background, skills, and what you are looking for in a new role.
 
 ## Skills
-<div style="display: grid; column-gap: 7px; grid-template-columns: 170px repeat(7, 10px);">
-    <div style=" height: 25px; margin-left: auto; margin-right: 10px">PowerShell</div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
+<style>
+.grid-container {
+    display: grid;
+    column-gap: 4px;
+    grid-template-columns: 240px repeat(7, 12px); 
+}
+
+.grid-item-left {
+    border: none;
+    height: 25px; 
+    margin-left: auto; 
+    margin-right: 9px;
+}
+
+.grid-item {
+    height: 12px; 
+    margin: 4px 0;
+    background-color: #4C9E60;
+}
+
+.grid-item-empty {}
+	
+</style>
+
+
+<div class="grid-container">
+    <div class="grid-item-left">PowerShell</div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
             
-    <div style=" height: 25px; margin-left: auto; margin-right: 10px">TSQL</div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; ; margin: 4px 0"></div>
+    <div class="grid-item-left">TSQL</div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item-empty"></div>
        
-	   <div style=" height: 25px; margin-left: auto; margin-right: 10px">Git</div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px;  margin: 4px 0"></div>
-    <div style=" height: 10px; ; margin: 4px 0"></div>
+    <div class="grid-item-left">Git</div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item-empty"></div>
+    <div class="grid-item-empty"></div>
 	
-	   <div style=" height: 25px; margin-left: auto; margin-right: 10px">C#</div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
+    <div class="grid-item-left">C#</div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item-empty"></div>
+    <div class="grid-item-empty"></div>
+    <div class="grid-item-empty"></div>
          
-    <div style=" height: 25px; margin-left: auto; margin-right: 10px">WPF XAML</div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-     <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
+    <div class="grid-item-left">WPF XAML</div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item-empty"></div>
+    <div class="grid-item-empty"></div>
+    <div class="grid-item-empty"></div>
 	
-	   <div style=" height: 25px; margin-left: auto; margin-right: 10px">Microsoft Power Apps</div>
-	   <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
+    <div class="grid-item-left">Microsoft Power Apps</div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item-empty"></div>
+    <div class="grid-item-empty"></div>
+    <div class="grid-item-empty"></div>
+    <div class="grid-item-empty"></div>
         
-    <div style=" height: 25px; margin-left: auto; margin-right: 10px">Microsoft Power Automate</div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
+    <div class="grid-item-left">Microsoft Power Automate</div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item-empty"></div>
+    <div class="grid-item-empty"></div>
+    <div class="grid-item-empty"></div>
+    <div class="grid-item-empty"></div>
     
-    <div style=" height: 25px; margin-left: auto; margin-right: 10px">VBA</div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; background-color: #4C9E60; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
-    <div style=" height: 10px; margin: 4px 0"></div>
+    <div class="grid-item-left">VBA</div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item-empty"></div>
+    <div class="grid-item-empty"></div>
+    <div class="grid-item-empty"></div>
+    <div class="grid-item-empty"></div>
+    <div class="grid-item-empty"></div>
 </div>
 
 
